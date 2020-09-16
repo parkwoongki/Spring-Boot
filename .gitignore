@@ -13,7 +13,7 @@ tmp/
 *.swp
 *~.nib
 local.properties
-*.properties
+application.properties
 .settings/
 .loadpath
 .recommenders
