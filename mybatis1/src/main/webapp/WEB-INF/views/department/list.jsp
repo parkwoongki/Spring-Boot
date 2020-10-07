@@ -26,6 +26,7 @@ td:nth-child(1) {
 				<tr>
 					<th>id</th>
 					<th>학과명</th>
+					<th></th>
 				</tr>
 			</thead>
 			<tbody>
@@ -33,6 +34,7 @@ td:nth-child(1) {
 					<tr>
 						<td>${ department.id }</td>
 						<td><a href="edit?id=${ department.id }">${ department.departmentName }</a></td>
+						<td><a href="delete?id=${ department.id }">삭제</a></td>
 					</tr>
 				</c:forEach>
 			</tbody>
