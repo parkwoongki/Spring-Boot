@@ -44,3 +44,8 @@ input {
 select {
 	padding: 4px;
 }
+
+tr[data-url]:hover {
+	cursor: pointer;
+	background-color: #ffe;
+}
